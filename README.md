@@ -324,7 +324,7 @@ gRPC, Google tarafından geliştirilmiş Remote Procedure Call, başka bir servi
 
  <img src="https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/fa691b3e-49ae-4b0c-a502-91aa3e5989db" align="center" width="220" height="100">
  <br><br>
-gRPC, açık kaynaklı ve yüksek performans sunan bir Uzaktan Yordam RPC çerçevesidir. gRPC istemcileri ve sunucuları, gRPC'nin desteklediği herhangi bir dilde yazılabilmektedir. Go, Python veya Ruby programlama dilleri ile istemcileri, Java'da ise gRPC sunucusu oluşturulabilmektedir. gRPC bir RPC gibi düşünülebilir ancak bu yaklaşımın yeni bir versiyonudur ve çok çeşitli özellikler ekler.<br>
+gRPC, açık kaynaklı ve yüksek performans sunan bir Uzaktan Yordam RPC çerçevesidir. gRPC istemcileri ve sunucuları, gRPC'nin desteklediği herhangi bir dilde yazılabilmektedir. Go, Python veya Ruby programlama dilleri ile istemcileri, Java'da ise gRPC sunucusu oluşturulabilmektedir. gRPC bir RPC gibi düşünülebilir ancak bu yaklaşımın yeni bir versiyonudur ve çok çeşitli özellikler ekler.<br><br>
 
 gRPC'nin eklediği en büyük özellik protobuf kavramıdır . Protobuf, verileri serileştirmek için kullanılan dillerden ve platformdan bağımsız yapılardır. Ayrıca gRPC, Google'ın çok etkili ve güçlü bir kimlik doğrulaması olan SSL/TLS sistemine sahiptir. gRPC ayrıca açık kaynaklı bir yazılımdır. Github for C, C++, Java, Node.js, Python, Ruby, Go, C#, PHP, Objective-C gRPC core gRPC java gibi dillerle kullanılabilmektedir.
 
