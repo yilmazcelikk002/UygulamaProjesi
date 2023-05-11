@@ -109,8 +109,8 @@ Kütüphanesinde sadece kendi firması olan CISCO’ya ait ürünler bulunmakta.
 	
 Sanal ağlar oluşturmak için kullanılan bir ağ simülatördür. Bir simülatör olarak CORE, soyut modellerin kullanıldığı simülasyonların aksine, gerçek zamanlı gerçek bir bilgisayar ağının temsilini oluşturmaktadır. Gerçek zamanlı simülasyon, fiziksel ağlara ve yönlendiricilere bağlanabilmektedir. Linux işletim sistemi tarafından sağlanan araçlardan yararlanmaktadır.
 
- https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/e8c34bdd-1843-4544-ac5f-f2dd174e128f
-<img src="" align="center" width="480" height="320">
+ 
+<img src="https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/e8c34bdd-1843-4544-ac5f-f2dd174e128f" align="center" width="480" height="320">
 
 CORE genel olarak uygulama testi, platform testi, ağ araştırması, gösteriler, network oluşturma senaryolarını inceleme gibi işlemler için kullanılır. 
 <br><br>
@@ -118,14 +118,16 @@ CORE genel olarak uygulama testi, platform testi, ağ araştırması, gösterile
 ## 8.	GTNetS (Georgia Tech Network Simulator)
 	
 Georgia Tech Network Simulator ( GTNetS) mevcut ağ simülasyon araçlarının kolayca oluşturabileceğinden çok daha büyük ölçekli simülasyonlara izin verecek şekilde özel olarak tasarlanmış ağ simülasyon prgoramıdır. Simülatörün tasarımı, gerçek ağ protokolü yığınlarının ve donanımının tasarımına çok yakındır. Bu ağ simülatörü tamamen nesne yönelimli yapıda C++ programlama dili ile uygulanmıştır. 
+
 GTNetS, Linux, OSX, Solaris ve Windows platformlarını desteklemektedir. GTNet'ler kullanılarak paketleri takibi, rastgele sayıların üretilmesi, sıralama yöntemleri, istatistiklere dayalı analitik yöntemler iyi bir şekilde analiz edilebilmektedir.
 <br><br>
 
 ## 9.	NetSim (Network Simulator)
 
 NetSim, hem basit hem de karmaşık ağ yapıları oluşturmak için geliştirilmiş ve bunu yanında verimliliklerini analiz etmek için kullanılabilecek pratik, kullanışlı ve güçlü bir ağ simülasyon programıdır. Sistem davranışı ve meydana gelebilecek sorunlarla ilgili bilgileri görüntüleyerek ağ güvenilirliğini değerlendirebilir.
- 
- <img src="" align="center" width="480" height="320">
+
+
+ <img src="https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/d4cd222f-1986-42ed-9ea2-1b6923539229" align="center" width="480" height="320">
 
 NetSim Network Simulator, klasik ev ağları, büyük ve kompleks yapıdaki ağları gerçekçi düzeyde oluşturabilir. Basit iş istasyonlarından sunuculara ve sensörlere, yönlendiricilere veya ATM anahtarlarına kadar her tür cihazdan oluşan çeşitli farklı konfigürasyonlarla kolayca ağ senaryoları oluşturulabilir.
 NetSim, hem kablolu ağlar için hem de kablosuz ağlar için veri paketlerinin nasıl iletildiğini görmemizi sağlayan grafiksel entegre paket animatörüne sahiptir.
@@ -135,7 +137,7 @@ NetSim, hem kablolu ağlar için hem de kablosuz ağlar için veri paketlerinin 
 
 Ölçeklenebilir ağ teknolojileri ile büyük ölçekli ve heterojen ağlar için bir Qualnet Ağ Simülatörü geliştirilmiştir. Her türlü veri, ses ve video ağları için ses modelleri oluşturmak için kullanılır. Gerçek zamanlı ağ simülasyonunu destekler ve temel olarak C++ ile yazılmıştır. 
 
-<img src="" align="center" width="480" height="320">
+<img src="https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/f89f1ebe-34f7-42e5-8497-d2ac78ca6fb2" align="center" width="480" height="320">
 
 Microsoft Visual Studio  ile entegre olduğundan dolayı satır satır hata ayıklaması yapabilmektedir. Qualnet, gelişmiş grafik arayüz desteğine sayesinde XML kullanarak değiştirmenize veya yeni menüler/protokoller eklemenize izin vermektedir. Qualnet, Windows, Solaris, Linux, UNIX, Mac os işletim sistemi iler çalışabilmektedir.
 
@@ -145,9 +147,10 @@ Microsoft Visual Studio  ile entegre olduğundan dolayı satır satır hata ayı
 
 #### Mesaj kuyruğu(Message Queue, MQ) nedir?
 Bir mesaj kuyruğu, iki hizmet arasında zaman uyumsuz(asenkron) iletişimi sağlamak için kuyruk veri yapısını kullanan bir mesajlaşma tekniğidir. Genellikle sunucusuz ve mikro hizmet mimarilerinde kullanılırlar.
-Mesaj kuyruğu iki bileşenden oluşur:
-•	Mesaj : Göndericiden alıcıya iletilen veridir. İletin bu veri, bir istek, bilgi, meta veri vb. olabilir.
-•	Kuyruk :Gönderici tarafından iletilen mesajları depolayan ve sıraya alan geçici bir bellektir. Mesajları göndericiden alıcıya iletmek için FIFO(İlk Giren İlk Çıkar) yöntemini kullanır.
+<br>
+Mesaj kuyruğu iki bileşenden oluşur:<br>
+•	Mesaj : Göndericiden alıcıya iletilen veridir. İletin bu veri, bir istek, bilgi, meta veri vb. olabilir.<br>
+•	Kuyruk :Gönderici tarafından iletilen mesajları depolayan ve sıraya alan geçici bir bellektir. Mesajları göndericiden alıcıya iletmek için FIFO(İlk Giren İlk Çıkar) yöntemini kullanır.<br>
 <br><br>
 
 ## 1.	RABBİTMQ 
@@ -157,8 +160,9 @@ Açık kaynak(Open Source) kodlu bir mesaj kuyruk yönetim sistemidir. Bu sistem
 Farklı işletim sistemlerine kurulabilir ve kullanılabilir olması yaygın kullanımlı olmasını sağlayan etmenlerdendir. Web arayüz desteği bulunduğundan kullanımı kolaydır.
 
 RabbitMQ, iletim zamanı uzun sürebilme ihtimali olan durumları uygulamadan bağımsız hale getirerek sorumluluğu üstlenip uygulamanın gecikme yaşamasının önüne geçmektedir.
+<img src="" align="center" width="480" height="320">
+ ![image](https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/b4594e1a-ead0-40ad-b607-c1aac846b00d)
 
- 
 #### RABBİTMQ Temel Bileşenleri
 Procedur (üretici), mesajı üreten taraftır. RabbitMQ ya publish eder.
 Exchange, mesajı ilk olarak karşılayan yapıdır. Mesajın özelliklerine göre, ilgili mesajı hangi kuyruğa göndereceğine karar verir.
@@ -178,6 +182,9 @@ Consumer:
 
 ##  2.	ZEROMQ (ØMQ, 0MQ, ZMQ)
 ZeroMQ, eş zamansız/asenkron G/Ç modeli, size eş zamansız mesaj iletimi sağlamaktadır. Birtakım dil API'sine sahiptir. Birçok işletim sisteminde çalışır. ZeroMQ, karmaşık iletişim kararları geliştirmeye izin veren bir mesajlaşma kuyruğu sistemidir.  C++ programlama dili ile yazılmıştır. Açık kaynak kodlu bir mesaj yönetim sistemidir.
+![image](https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/64713348-baeb-490e-82bc-ff9d39f9a627)
+
+ <img src="" align="center" width="480" height="320">
  
 Birden çok dil desteği bulunmaktadır. ( C, C#, C++, Erlang, Go, Haskell, Java, JavaScript, Perl, PHP, Python, Objective-C, Scala)
 AT&T, Cisco, EA, Los Alamos Labs, NASA, Weta Digital, Zynga, Spotify, Samsung, Microsoft ve CERN gibi firmalar kullanmaktadır.
@@ -187,7 +194,10 @@ ZeroMQ motorlarının çoğu TCP kullanır.  UDP Tek Noktaya Yayın ve Çok Nokt
 ## 3.	APACHE KAFKA
 Apache Kafka, mesajların bir sistemden diğer bir siteme hızlı bir şekilde bir şekilde iletimini sağlamak için oluşturulmuş bir kuyruk yönetim sistemidir. İlk olarak 2011’de Java ile Linkedin tarafından giliştirilmiş ancak sonrasında Apache çatısı altında open source(açık kaynak) bir proje haline getirilmiştir. Devasa boyutlarda veriye sahip olduğu bilinen Netflixx Uber, Linkedin, Twitter gibi birçok firma tarafından kabul görmüş ve kullanılmaktadır.
 Kafka, büyük veriden, ilişkisel veri tabanlarına, veri ambarlarından, NoSql gibi bilgi sistemleri arasındaki veri alışverişini sistemden bağımsız olarak yapılmasını sağlamaktadır. Hatta bu iletimi milisaniyeler seviyesinde yapar.
- 
+![image](https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/ddfcdccc-b699-4d7c-9199-d6e64f2e6d1e)
+
+<img src="" align="center" width="480" height="320">
+
 #### Apache Kafka bileşenleri
 •	Topic ve Partition: Topic verilerin gönderilip alındığı ksımdır. Kafka cluster’ında birden fazla topic olabilir. Topic’ler partition’lara ayrılırlar. Partition’lar 0’dan artan sayıda isimlendirilirler. Apache Kafkada bilgi belli bir süre tutulur örneğin 1 hafta gibi, daha sonra bilgi silinmektedir. <br>
 
@@ -201,14 +211,20 @@ Kafka, büyük veriden, ilişkisel veri tabanlarına, veri ambarlarından, NoSql
 ## 4.	Apache ActiveMQ(Active Message Queue)
 
 Apache ActiveMQ, temelini Java Mesajlaşma hizmetinin(JMS) oluşturduğu mesaj yönetim yazılımıdır. Java dili ile yazılmıştır. Açık kaynak kodlu bir yazılımdır. Farklı platformlarda çalışabilmektedir. Kümeleme, JMS sunucusu üzerinden herhangi bir veritabanını  kullanma, mesajları önbellekte tutma, mesajları depolama, günlüğe kaydetme gibi birçok özellik sunmaktadır.
- 
+![image](https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/ef478b6f-723d-4a1d-8f1b-9ac7fee32e95)
+
+<img src="" align="center" width="480" height="320">
+
 Birden çok dil desteği sunmaktadır (C#, C, C++, Erlang, Go, Haskell, Haxe, Jekejeke Prolog, NetLogo, Node.js, Perl, Pike, Python, Racket, Ruby on Rails). Farklı protokelleri de desteklemektedir(AMQP, AUTO, MQTT, OpenWire, REST, RSS ve Atom, Stomp, WSIF, WS Notification, XMPP, WebSocket).
 Mesaj iletim şekli normalde varsayılan olarak eşzamanlıdır. Ancak birtakım ayarlamalar ile eş iletim sağlanabilmektedir. Eşzamansız iletim için ActiveMQConnectionFactory üzerinde useAsyncSend özelliği ayarlanabilir.
 <br><br>
 
 ## 5.	 NSQ nedir?
 NSQ, milyonlarca mesajı işleyerek geniş çaplı iletim ve işleme kapasitesine sahip açık kaynak kodlu mesajlaşma yönetim platformudur. Gerçek zamanlı olarak çalışmaktadır. NSQ, sunucu yeniden başlarsa ya da offline olursa bile mesajları bellekte tutmaya devam eder. Her mesaj en az bir kez teslim edilmesini garanti eder. NSQ, Go ve Python istemci kütüphanelerinin yanı sıra farklı dillerde kütüphaneleri de mevcuttur. 
- 
+![image](https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/fa274883-82a6-4358-ab83-1b62b9f6e7f8)
+
+<img src="" align="center" width="480" height="320">
+
 NSQ Mesaj Kuyruk Yazılımı  3 bileşenden oluşur: <br>
 •	NSQD, mesajları istemcilere ileten, mesajları arabelleğe alan bileşendir.<br>
 •	NSQlookupd, istemciler, belirli bir konu için NQSD bileşenini keşfetmek için nsqlookupd'yi sorgular. NQSD ise yayın bilgilerini ve kanal bilgilerini yayınlar.<br>
@@ -218,7 +234,10 @@ NSQ Mesaj Kuyruk Yazılımı  3 bileşenden oluşur: <br>
 ## 6.	RocketMQ (Rocket Message Queue)<br>
 RocketMQ, Alibaba Group tarafından geliştirilmiş olan profesyonel bir mesaj kuyruğu yönetimi yazılımıdır. RocketMQ, mesaj iletme, yayınlama, mesaj izleme, gecikme mesajı yönetimi, kaynak istatistikleri çıkarma gibi hizmetler sunmakatadır. 
 RocketMQ Java, C++, .NET, Go, Python, Nodejs ve PHP'yi dillerini desteklemektedir. TCP ve HTTP protokollerini desteklemektedir. 
- <br><br>
+ <br><br>![image](https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/34d3d209-c64d-45ab-ab5a-a1ebd886587a)
+
+ <img src="" align="center" width="480" height="320">
+ 
 #### RocketMQ'nun Avantajları<br>
 •	RocketMQ farklı sistemler arasında veri tutarlılığını sağlar. <br>
 •	Gecikmeli mesaj desteği sunmaktadır.<br>
@@ -238,7 +257,9 @@ RocketMQ Java, C++, .NET, Go, Python, Nodejs ve PHP'yi dillerini desteklemektedi
 
 MSMQ, dağıtık sistemlerde (aralarında sürekli bir bağlantı gerektirmeyen)
 Güvenli bir biçimde iletişim kurulmasını sağlayan mesaj kuyruğu yönetim protokolüdür. MSMQ üzerinden kuyruğa mesaj gönderilir. Sistemde gelen bu mesaj, ilgili uygulama kuyruğa giderek kontrol eder ve kendisine gelen bir mesaj varsa gelen mesajı alır ve ilgili yere ulaştırır. Aşağıdaki şekilde iletim süreci gösterilmiştir.
- 
+ ![image](https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/4d96c5b4-8aad-42fb-9870-6d39b2895927)
+
+<img src="" align="center" width="480" height="320">
 
 MSMQ, sayesinde bağımsız çalışan iki ayrı sistem birbirlerini etkilemeden, etkilenmeden mesajları alabilir ya da gönderebilir. Bu sayede sistemde çalışan birimlerden bir veya birkaçının devre dışı kalması durumunda sistemin normal işleyişine devam edebilmesine sağlanmaktadır. 
 
@@ -247,6 +268,7 @@ MSMQ teknolojisi, Windows işletim sistemi üzerinde hazır olarak gelmekte.  An
 
 ## 8.	IBM MQ
 IBM tarafından 1993'te piyasaya sürülmüştür. Mesaj kuyruk yönetim yazılımıdır. İlk olarak MQSeries ismiyle anılıyorken, 2002 de WebSphere MQ olarak yeniden adlandırıldı. Ancak, 2014'te IBM MQ olarak şu anki adıyla kullanılmaya devam edilmekte.  IBM MQ, IBM MQ Advanced, IBM MQ Appliance, IBM MQ for z/OS ve IBM MQ on IBM Cloud'dur farklı versiyonları bulunmaktadır. 
+
 IBM MQ, birbiri ile bağlantılı olmayan sistemlerde ve eşzamansız olarak çalışan uygulamalar arasında güvenli bir biçimde iletişim kurmalarını sağlar.  Diğer mesaj iletim protokollerinde olduğu gibi , depolama, yönlendirme ve teslim gibi bilgiler mesaj alıcıya iletilmeden önce eklenir ve alıcıya mesajı teslim almadan önce de mesajdan çıkarılır. IBM MQ, hem IBM hem de IBM dışı farklı platformlarda kullanılabilir.
 
 #### IBM MQ’nun Temel Bileşenleri:<br>
@@ -260,7 +282,9 @@ IBM MQ, birbiri ile bağlantılı olmayan sistemlerde ve eşzamansız olarak ça
 Amazon.com tarafından 2004 yılında kullanıma beta sürümü olarak sunulmaya başlanmış ve asıl olarak 2006 yılında tam olarak kullanıma başlanmış bir mesaj kuyruklama hizmetidir. SQS'nin amacı, gönderici ile alıcı arasındaki sorunlardan, bağlantı hatalarından kaynaklanan sorunları çözen, ölçeklenebilir mesaj kuyruk yönetim yazılımıdır.
 
 Amazon,  Java , Ruby , Python , .NET , PHP , Go ve JavaScript gibi çeşitli programlama dillerinde yazılım geliştirme araçları sağlamaktadır. 
+![image](https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/8688c10f-5a11-42fe-9259-08dee0be1e6f)
 
+<img src="" align="center" width="480" height="320">
  
 SQS ile gönderilen bir mesaj iletildikten sonra otomatik olarak silinmez. Bu mesaj teslim edildiğinde, mesaja “mesaj iletildi” anlamında bir ek oluşturulur ve alıcıya gönderilir. Bu ek mesajla birlikte değil, mesaja gönderildikten sonra arkasından gönderilir. Bir başka özellik ise tekrarlanan mesajları kaldırma özelliğidir. 
 
@@ -279,6 +303,9 @@ Mesajların gönderilme sırası da ve alınma sırası da değişmez yani ilk g
 ## 10.	gRPC (Google Remote Procedure Call)
 
 gRPC, Google tarafından geliştirilmiş Remote Procedure Call, başka bir servis ya da uzak bir sunucudaki bir metodu sanki kendi servisimize ait bir metotmuş gibi kullanabilmesini sağlayan yazılımdır. İstemci sunucu ilişkisindeki iletişimi kolay ve hızlıca sunan bir frameworktür. gRPC, client-server arasındaki işlevleri yerine getirmek için REST yerine kullanılan bir iletişim protokolüdür. Bu işlevler, mobil uygulamalar veya CLI araçları olabilir. İstemci, sunucuya bir istekte gönderir ve sunucu ise bu isteğe yanıt verir.
+![image](https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/fa691b3e-49ae-4b0c-a502-91aa3e5989db)
+
+ <img src="" align="center" width="480" height="320">
  
 gRPC, açık kaynaklı ve yüksek performans sunan bir Uzaktan Yordam RPC çerçevesidir. gRPC istemcileri ve sunucuları, gRPC'nin desteklediği herhangi bir dilde yazılabilmektedir. Go, Python veya Ruby programlama dilleri ile istemcileri, Java'da ise gRPC sunucusu oluşturulabilmektedir. gRPC bir RPC gibi düşünülebilir ancak bu yaklaşımın yeni bir versiyonudur ve çok çeşitli özellikler ekler.
 
