@@ -2,13 +2,17 @@
 
 Gelişen teknoloji ve günümüz ihtiyaçlarının giderek artış göstermektedir. Bu artışın, gelişimin sonucu olarak gereksinimlerin de fazlasıyla artması ve daha karmaşık hale gelmesi ile birlikte, deney maliyetleri artması gerçek hayatta geliştirilmek istenen herhangi bir projenin de toplam maliyeti açısından oldukça yük getirmiştir. Buna çözüm olarak simülasyonlar çok önemli bir görevi üstlenmiş olmaktadır.  Maliyet kazancının yanı sıra zaman, iş güvenliği açısından da oldukça fayda sağlamaktadır. Ağ simülasyon programları da zaman, mekân, maliyet gibi yükleri hafifletmektedir. Bunu yanında öngörülemeyen problemlerin tespiti ve çözümü aşamasında da oldukça fayda sağlamaktadır.
 <br><br>
+
 ## 1.	GNS3 (Graphical Network Simulator 3):
 
 Açık kaynak kodlu bir emülatör  olan bu program, özellikle Cisco IOS’ları emüle ederek sanki gerçek dünyadaki bir cihazda üzerinde çalışıyormuş gibi uygulamalar geçekleştirilebilmektedir. GNS3 Cisco IOS’ları emüle ederken( benzetim) Dynamips isimli programı kullanır. GNS3 programı da Dynamips için grafiksel bir arabirim sunar. 
+
 <br>
  <img src="https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/1162487c-596d-40ee-97d1-06779c560088" align="center" width="480" height="320">
-<br>
+<br><br>
+
 GNS3 bir başka önemli özelliği de farklı markaların işletim sistemlerini emüle edebilmesidir. Bunun yanında Wmvare gibi sanal makine programları ile oluşturacağınız sanal makineler üzerinden farklı topolojiler oluşturabilir, bu sanal makinelerin birbirleri ile haberleştirebilmesine olanak sağlamaktadır. GNS3 yazılımının kurulmasıyla Wireshark adındaki ağ izleme, paket yakalama yazılımları da beraberinde kurulmaktadır. Bundan dolayı ağ trafiğini izlemek mümkün hale gelmektedir.
+
 Reel dünyadaki yönlendirici ile gerçek sanal bilgisayarlar kullanılmasından dolayı epey gerçekçi bir çalışma ortamı sağlamaktadır. Emülatörün bir diğer önemli özelliği de sanal ağda kullanılan sanal makinaların fiziksel bilgisayar üzerinden internete çıkabilmesidir.
 <br><br>
 
@@ -26,14 +30,17 @@ OMNeT++, nesne yönelimli modüler yapılı bir ağ simülasyon programıdır. B
 Günümüzde sıklıkla kullanılmakta olan iletişim ağlarının modellenmesini sağlar. OMNeT++, aslında normal bir simülasyon programından farklı olarak direk simüle etmek üzerine değil de bunun yerine simülasyon oluşturmak için altyapı ve araç sunar. Bu yapının temel bileşenlerinden biri simülasyon modelleri için bir bileşen mimarisidir. Simülasyon, modül adı verilen kullanıcı tarafından oluşturulan ve tekrar tekrar kullanılabilir yapıların birleşimiyle oluşturulur. Modüller bir nevi usercontrol’a benzetmek mümkündür istenildiği yerde kullanılabilmektedir.
 
 <img src="https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/77c6bd65-7cc7-48f7-9cd4-bf3589d62b6f" align="center" width="320" height="180">
-  
+ <br> 
+ 
 Modüller, kapılar aracılığıyla birbirine bağlanır. Bu modüllerin birleşiminde bileşik modüller oluşturulur.  Modüller, mesajlar, kanallar ve kapılar gibi yeniden kullanılabilir bileşenlerden ağ modelleri oluşturmak için bir yapı sağlar. Modüller, mesajların isteğe bağlı veri yapıları taşıyabileceği mesaj geçişi yoluyla iletişim kurar. 
   
 <img src="https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/c28e7ddb-6da1-472b-abb2-e014f970a82c" align="center" width="480" height="320">
   <br>
+  
 OMNeT++, C++ programlama dili ile yazılmıştır, simülasyonların oluşturulmasını, kullanımını basitleştirmek ve görselliği daha anlaşılır hale getirmek için bir grafik kullanıcı arabirimi (GUI) bulunmaktadır. NED adı verilen ağ tanımlama dili kullanır. Gelişmiş bir simülasyon kütüphanesine sahiptir. Simüle edilecek olan tüm nesneler statik ya da dinamik olarak oluşturulabilmektedir. Bu simülasyon yazılımı ücretsizdir ve zengin doküman desteğine sahiptir.
 
 <br><br>
+
 ## 3.	OPNET Modeler (OPtimum NETwork performance):
 
 OPNET Modeler, iletişim sistemleri ve haberleşme ağlarının simüle etmek için gerçekçi bir ortam sağlayan nesneye yönelik bir simülasyon yazılımıdır. OPNET Modeler üzerinden tasarlanan sistemler ayrık zamanlı simülasyon gerçekleştirilerek başarım analizleri yapılabilmektedir. OPNET genel olarak başarım ölçümü, trafik planlaması, ağ yönetimi, ağ tasarımı, ürünlerin ve protokollerin testi, protokol tasarımı, başarım değerlendirmesi Başarım optimizasyonu, ağ yönetimi gibi durumlarda rahatlıkla kullanılabilmektedir.
@@ -53,6 +60,7 @@ OPNET hiyerarşik modelleme katmanlarından oluşur. OPNET zengin kütüphane i�
 
 <img src="https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/a75d7f7d-edb5-4062-82d7-15cac2ed9da3" align="center" width="480" height="320">
 <br>
+
 OPNET Modeler programında bir sistemi modellemek için, birbirinden farklı görevleri bulunan editörler kullanılmaktadır. Bu editörlerde yapılan işlemler sonrasında birleştirilerek modelleme tamamlanır. Bu editörler;
  
 <br>•	Project Editör: Ağ modellerinin geliştirildiği, alt ağların oluşturulduğu, bağlantı hatları, düğümler(nodes) ve coğrafik içeriğin tanımlandığı editördür.
@@ -69,6 +77,7 @@ Ns-2 LAN, WAN ve VPN gibi ağları simüle etmek için kullanılabilmektedir.
 
  
 <img src="https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/a0f99860-aadc-42f3-9126-72c21e69469f" align="center" width="480" height="320">
+<br>
 
 Ns-2 ile oluşturulan bir simülasyonun analizinde elde edilecek veriler iki ayrı şekilde oluşturulmaktadır. Birincisi, tarihçe dosyası (trace files) olarak isimlendirilen ve uzantısı  tr bir dosya oluşturulmaktadır.. Bu dosya, bir nevi LOG kayıtlarını tutan bir doküman gibi düşünülebilir. İçerinde bu doküman, bir alıcı ne zaman bilgi alışverişinde bulunduğu, ne zaman bu bilgileri kayıt altına aldı gibi bilgiler yer almaktadır. İkinci olarak ise, Network Animator (NAM) adındaki dosyada ise yazılan modelini modüllerin kodlarına göre algılayıcıların paket bilgilerini, hareketlerini biri nevi görsel olarak sonuçları çıktıları sunan dosya denilebilir.
 
@@ -98,6 +107,7 @@ NS-3 kütüphanesi, bazı bileşenlerin birleşiminden oluşmakta. Bu bileşenle
 ## 6.	Cisco Packet Tracer
 
 Network'lerin (ağ'ların) nasıl çalıştıklarını inceleyebilmek ve üzerinde denemeler yapmalarına olanak sağlayan, Cisco firması tarafından geliştirilmiş olan bir ağ simülasyon programıdır.
+
 <br><br>
  <img src="https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/63f18784-c892-4761-952b-280fd6332dc4" align="center" width="480" height="320">
  <br><br>
@@ -111,6 +121,7 @@ Sanal ağlar oluşturmak için kullanılan bir ağ simülatördür. Bir simülat
 
  
 <img src="https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/e8c34bdd-1843-4544-ac5f-f2dd174e128f" align="center" width="480" height="320">
+<br>
 
 CORE genel olarak uygulama testi, platform testi, ağ araştırması, gösteriler, network oluşturma senaryolarını inceleme gibi işlemler için kullanılır. 
 <br><br>
@@ -128,6 +139,7 @@ NetSim, hem basit hem de karmaşık ağ yapıları oluşturmak için geliştiril
 
 
  <img src="https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/d4cd222f-1986-42ed-9ea2-1b6923539229" align="center" width="480" height="320">
+<br>
 
 NetSim Network Simulator, klasik ev ağları, büyük ve kompleks yapıdaki ağları gerçekçi düzeyde oluşturabilir. Basit iş istasyonlarından sunuculara ve sensörlere, yönlendiricilere veya ATM anahtarlarına kadar her tür cihazdan oluşan çeşitli farklı konfigürasyonlarla kolayca ağ senaryoları oluşturulabilir.
 NetSim, hem kablolu ağlar için hem de kablosuz ağlar için veri paketlerinin nasıl iletildiğini görmemizi sağlayan grafiksel entegre paket animatörüne sahiptir.
@@ -138,6 +150,7 @@ NetSim, hem kablolu ağlar için hem de kablosuz ağlar için veri paketlerinin 
 Ölçeklenebilir ağ teknolojileri ile büyük ölçekli ve heterojen ağlar için bir Qualnet Ağ Simülatörü geliştirilmiştir. Her türlü veri, ses ve video ağları için ses modelleri oluşturmak için kullanılır. Gerçek zamanlı ağ simülasyonunu destekler ve temel olarak C++ ile yazılmıştır. 
 
 <img src="https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/f89f1ebe-34f7-42e5-8497-d2ac78ca6fb2" align="center" width="480" height="320">
+<br>
 
 Microsoft Visual Studio  ile entegre olduğundan dolayı satır satır hata ayıklaması yapabilmektedir. Qualnet, gelişmiş grafik arayüz desteğine sayesinde XML kullanarak değiştirmenize veya yeni menüler/protokoller eklemenize izin vermektedir. Qualnet, Windows, Solaris, Linux, UNIX, Mac os işletim sistemi iler çalışabilmektedir.
 
@@ -162,6 +175,7 @@ Farklı işletim sistemlerine kurulabilir ve kullanılabilir olması yaygın kul
 RabbitMQ, iletim zamanı uzun sürebilme ihtimali olan durumları uygulamadan bağımsız hale getirerek sorumluluğu üstlenip uygulamanın gecikme yaşamasının önüne geçmektedir.
 
 <img src="https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/b4594e1a-ead0-40ad-b607-c1aac846b00d" align="center" width="480" height="320">
+<br>
 
 #### RABBİTMQ Temel Bileşenleri
 Procedur (üretici), mesajı üreten taraftır. RabbitMQ ya publish eder.
@@ -183,7 +197,8 @@ Consumer:
 ##  2.	ZEROMQ (ØMQ, 0MQ, ZMQ)
 ZeroMQ, eş zamansız/asenkron G/Ç modeli, size eş zamansız mesaj iletimi sağlamaktadır. Birtakım dil API'sine sahiptir. Birçok işletim sisteminde çalışır. ZeroMQ, karmaşık iletişim kararları geliştirmeye izin veren bir mesajlaşma kuyruğu sistemidir.  C++ programlama dili ile yazılmıştır. Açık kaynak kodlu bir mesaj yönetim sistemidir.
 
- <img src="https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/64713348-baeb-490e-82bc-ff9d39f9a627" align="center" width="480" height="320">
+ <img src="https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/64713348-baeb-490e-82bc-ff9d39f9a627" align="center" width="320" height="140">
+ <br><br>
  
 Birden çok dil desteği bulunmaktadır. ( C, C#, C++, Erlang, Go, Haskell, Java, JavaScript, Perl, PHP, Python, Objective-C, Scala)
 AT&T, Cisco, EA, Los Alamos Labs, NASA, Weta Digital, Zynga, Spotify, Samsung, Microsoft ve CERN gibi firmalar kullanmaktadır.
@@ -196,6 +211,7 @@ Kafka, büyük veriden, ilişkisel veri tabanlarına, veri ambarlarından, NoSql
 
 
 <img src="https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/ddfcdccc-b699-4d7c-9199-d6e64f2e6d1e" align="center" width="480" height="320">
+<br><br>
 
 #### Apache Kafka bileşenleri
 •	Topic ve Partition: Topic verilerin gönderilip alındığı ksımdır. Kafka cluster’ında birden fazla topic olabilir. Topic’ler partition’lara ayrılırlar. Partition’lar 0’dan artan sayıda isimlendirilirler. Apache Kafkada bilgi belli bir süre tutulur örneğin 1 hafta gibi, daha sonra bilgi silinmektedir. <br>
@@ -211,7 +227,8 @@ Kafka, büyük veriden, ilişkisel veri tabanlarına, veri ambarlarından, NoSql
 
 Apache ActiveMQ, temelini Java Mesajlaşma hizmetinin(JMS) oluşturduğu mesaj yönetim yazılımıdır. Java dili ile yazılmıştır. Açık kaynak kodlu bir yazılımdır. Farklı platformlarda çalışabilmektedir. Kümeleme, JMS sunucusu üzerinden herhangi bir veritabanını  kullanma, mesajları önbellekte tutma, mesajları depolama, günlüğe kaydetme gibi birçok özellik sunmaktadır.
 
-<img src="https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/ef478b6f-723d-4a1d-8f1b-9ac7fee32e95" align="center" width="480" height="320">
+<img src="https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/ef478b6f-723d-4a1d-8f1b-9ac7fee32e95" align="center" width="320" height="140">
+<br><br>
 
 Birden çok dil desteği sunmaktadır (C#, C, C++, Erlang, Go, Haskell, Haxe, Jekejeke Prolog, NetLogo, Node.js, Perl, Pike, Python, Racket, Ruby on Rails). Farklı protokelleri de desteklemektedir(AMQP, AUTO, MQTT, OpenWire, REST, RSS ve Atom, Stomp, WSIF, WS Notification, XMPP, WebSocket).
 Mesaj iletim şekli normalde varsayılan olarak eşzamanlıdır. Ancak birtakım ayarlamalar ile eş iletim sağlanabilmektedir. Eşzamansız iletim için ActiveMQConnectionFactory üzerinde useAsyncSend özelliği ayarlanabilir.
@@ -221,8 +238,8 @@ Mesaj iletim şekli normalde varsayılan olarak eşzamanlıdır. Ancak birtakım
 NSQ, milyonlarca mesajı işleyerek geniş çaplı iletim ve işleme kapasitesine sahip açık kaynak kodlu mesajlaşma yönetim platformudur. Gerçek zamanlı olarak çalışmaktadır. NSQ, sunucu yeniden başlarsa ya da offline olursa bile mesajları bellekte tutmaya devam eder. Her mesaj en az bir kez teslim edilmesini garanti eder. NSQ, Go ve Python istemci kütüphanelerinin yanı sıra farklı dillerde kütüphaneleri de mevcuttur. 
 
 
-<img src="https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/fa274883-82a6-4358-ab83-1b62b9f6e7f8" align="center" width="480" height="320">
-
+<img src="https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/fa274883-82a6-4358-ab83-1b62b9f6e7f8" align="center" width="320" height="140">
+<br><br>
 NSQ Mesaj Kuyruk Yazılımı  3 bileşenden oluşur: <br>
 •	NSQD, mesajları istemcilere ileten, mesajları arabelleğe alan bileşendir.<br>
 •	NSQlookupd, istemciler, belirli bir konu için NQSD bileşenini keşfetmek için nsqlookupd'yi sorgular. NQSD ise yayın bilgilerini ve kanal bilgilerini yayınlar.<br>
@@ -234,7 +251,8 @@ RocketMQ, Alibaba Group tarafından geliştirilmiş olan profesyonel bir mesaj k
 RocketMQ Java, C++, .NET, Go, Python, Nodejs ve PHP'yi dillerini desteklemektedir. TCP ve HTTP protokollerini desteklemektedir. 
  <br><br>
 
- <img src="https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/34d3d209-c64d-45ab-ab5a-a1ebd886587a" align="center" width="480" height="320">
+ <img src="https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/34d3d209-c64d-45ab-ab5a-a1ebd886587a" align="center" width="320" height="140">
+ <br><br>
  
 #### RocketMQ'nun Avantajları<br>
 •	RocketMQ farklı sistemler arasında veri tutarlılığını sağlar. <br>
@@ -245,6 +263,7 @@ RocketMQ Java, C++, .NET, Go, Python, Nodejs ve PHP'yi dillerini desteklemektedi
 •	İletim için gönderilen mesajları gönderildikleri aynı sıra ile alıcılara iletimini sağlar.<br>
 •	Gönderilen mesajlardan iletilmemiş olanları, özel bir mesaj kuyruğunda saklayabilmektedir.<br>
 <br><br>
+
 #### RocketMQ’nun Bileşenleri:<br>
 •	Web konsolu: Mesaj yönetimi, gönderici yönetimi, alıcı yönetimi, mesaj sorgularını, mesaj hareketlerini, raporlamaları ve alarm yönetimini gibi özellikler sunar.<br>
 •	Açık Kaynaklı API: Kullanıcıların, RocketMQ yönetim araçlarını kendi sistemlerine dahil etmelerine sağlamaktadır.<br>
@@ -257,6 +276,7 @@ MSMQ, dağıtık sistemlerde (aralarında sürekli bir bağlantı gerektirmeyen)
 Güvenli bir biçimde iletişim kurulmasını sağlayan mesaj kuyruğu yönetim protokolüdür. MSMQ üzerinden kuyruğa mesaj gönderilir. Sistemde gelen bu mesaj, ilgili uygulama kuyruğa giderek kontrol eder ve kendisine gelen bir mesaj varsa gelen mesajı alır ve ilgili yere ulaştırır. Aşağıdaki şekilde iletim süreci gösterilmiştir.
 
 <img src="https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/4d96c5b4-8aad-42fb-9870-6d39b2895927" align="center" width="480" height="320">
+<br><br>
 
 MSMQ, sayesinde bağımsız çalışan iki ayrı sistem birbirlerini etkilemeden, etkilenmeden mesajları alabilir ya da gönderebilir. Bu sayede sistemde çalışan birimlerden bir veya birkaçının devre dışı kalması durumunda sistemin normal işleyişine devam edebilmesine sağlanmaktadır. 
 
@@ -281,10 +301,12 @@ Amazon.com tarafından 2004 yılında kullanıma beta sürümü olarak sunulmaya
 Amazon,  Java , Ruby , Python , .NET , PHP , Go ve JavaScript gibi çeşitli programlama dillerinde yazılım geliştirme araçları sağlamaktadır. 
 
 <img src="https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/8688c10f-5a11-42fe-9259-08dee0be1e6f" align="center" width="480" height="320">
+ <br><br>
  
 SQS ile gönderilen bir mesaj iletildikten sonra otomatik olarak silinmez. Bu mesaj teslim edildiğinde, mesaja “mesaj iletildi” anlamında bir ek oluşturulur ve alıcıya gönderilir. Bu ek mesajla birlikte değil, mesaja gönderildikten sonra arkasından gönderilir. Bir başka özellik ise tekrarlanan mesajları kaldırma özelliğidir. 
 
 SQS için iki kuyruk yönetim yapısı vardır.<br>
+
 #### Standart Kuyruklar<br>
 Standart kuyruklar, eylem başına saniyede neredeyse sınırsız sayıda işlemi desteklemektedir.
 Bir mesaj en az bir kez teslim edilme garantisi vardır, ancak bazen mesajların birden fazla kez gönderilme ihtimali vardır.
@@ -300,9 +322,9 @@ Mesajların gönderilme sırası da ve alınma sırası da değişmez yani ilk g
 
 gRPC, Google tarafından geliştirilmiş Remote Procedure Call, başka bir servis ya da uzak bir sunucudaki bir metodu sanki kendi servisimize ait bir metotmuş gibi kullanabilmesini sağlayan yazılımdır. İstemci sunucu ilişkisindeki iletişimi kolay ve hızlıca sunan bir frameworktür. gRPC, client-server arasındaki işlevleri yerine getirmek için REST yerine kullanılan bir iletişim protokolüdür. Bu işlevler, mobil uygulamalar veya CLI araçları olabilir. İstemci, sunucuya bir istekte gönderir ve sunucu ise bu isteğe yanıt verir.
 
- <img src="https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/fa691b3e-49ae-4b0c-a502-91aa3e5989db" align="center" width="480" height="320">
- 
-gRPC, açık kaynaklı ve yüksek performans sunan bir Uzaktan Yordam RPC çerçevesidir. gRPC istemcileri ve sunucuları, gRPC'nin desteklediği herhangi bir dilde yazılabilmektedir. Go, Python veya Ruby programlama dilleri ile istemcileri, Java'da ise gRPC sunucusu oluşturulabilmektedir. gRPC bir RPC gibi düşünülebilir ancak bu yaklaşımın yeni bir versiyonudur ve çok çeşitli özellikler ekler.
+ <img src="https://github.com/yilmazcelikk002/UygulamaProjesi/assets/132395836/fa691b3e-49ae-4b0c-a502-91aa3e5989db" align="center" width="220" height="100">
+ <br><br>
+gRPC, açık kaynaklı ve yüksek performans sunan bir Uzaktan Yordam RPC çerçevesidir. gRPC istemcileri ve sunucuları, gRPC'nin desteklediği herhangi bir dilde yazılabilmektedir. Go, Python veya Ruby programlama dilleri ile istemcileri, Java'da ise gRPC sunucusu oluşturulabilmektedir. gRPC bir RPC gibi düşünülebilir ancak bu yaklaşımın yeni bir versiyonudur ve çok çeşitli özellikler ekler.<br>
 
 gRPC'nin eklediği en büyük özellik protobuf kavramıdır . Protobuf, verileri serileştirmek için kullanılan dillerden ve platformdan bağımsız yapılardır. Ayrıca gRPC, Google'ın çok etkili ve güçlü bir kimlik doğrulaması olan SSL/TLS sistemine sahiptir. gRPC ayrıca açık kaynaklı bir yazılımdır. Github for C, C++, Java, Node.js, Python, Ruby, Go, C#, PHP, Objective-C gRPC core gRPC java gibi dillerle kullanılabilmektedir.
 
