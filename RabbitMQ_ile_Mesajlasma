@@ -1,0 +1,14 @@
+import pika
+
+# RabbitMQ sunucusuna bağlanma
+connection = pika.BlockingConnection(pika.ConnectionParameters('RABBITMQ_HOST'))
+channel = connection.channel()
+
+# Mesajı göndermek için kuyruk tanımlama
+channel.queue_declare(queue='MESAJ_KUYRUK')
+
+# Mesajı gönderme
+channel.basic_publish(exchange='', routing_key='MESAJ_KUYRUK', body='Merhaba RabbitMQ!')
+
+# Bağlantıyı kapatma
+connection.close()
